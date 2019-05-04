@@ -107,7 +107,7 @@ body {
 
 #banner {
     height: 363px;
-    background-image: url("../imagesz/happypeople.jpg");
+    background-image: url("imagesz/happypeople.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 363px;
