@@ -82,7 +82,9 @@ body {
 
 #footer {
     /*height: 600px;*/
-    clear: both;
+    text-align: center;
+    padding: 1.5rem 0;
+
 }
 
 #header {
