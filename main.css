@@ -1,7 +1,12 @@
 body {
-    background-color: lightsalmon;
+    background-color: white;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom:100px;
 }
 
 #box1 {
@@ -36,8 +41,8 @@ body {
 }
 
 #wrapper {
-    width: 960px;
-    height: 1553px;
+    width: 960px;                       /*originally 960*/
+    height: 1553px;                      /*originally 1553*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -87,7 +92,7 @@ body {
 
 #footer {
     position: relative;
-    height: 79px;
+    height: 90px;
     text-align: center;
     clear:both;
 
@@ -111,11 +116,11 @@ body {
 }
 
 #banner {
-    height: 363px;
+    height: 430px;                                          /*originally 363*/
     background-image: url("imagesz/happypeople.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    line-height: 363px;
+    line-height: 430px;                                     /*originally 363*/
 
 }
 
@@ -149,7 +154,7 @@ body {
 
 
 .box {
-    width: 245px;
+    width: 245px;                           /*initially 266*/
     padding-right: 12px;
     padding-left: 12px;
     padding-top: 18px;
@@ -158,7 +163,7 @@ body {
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
-    margin-top: 18px;
+    margin-top: 50px;
     margin-right: 18px;
     margin-left: 30px;
 }
@@ -171,5 +176,5 @@ body {
 }
 
 #container{
-    height: 900px;
+    height: 833px;
 }
