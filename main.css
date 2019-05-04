@@ -120,13 +120,17 @@ body {
     background-image: url("imagesz/JacobJavits.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    line-height: 430px;                                     /*originally 363*/
-
+    line-height: 40px;
+    /*line-height: 430px;*/          /*updated 5/4/19*/                           /*originally 363*/
+    inline-size: 960px;             /*included*/
 }
 
 #hero  {
+    height:0px;                 /*updated 5/4/19*/
+    /*
     height: 365px;
     width: 320px;
+    */
     position: relative;
     display: block;
     z-index: 1;
