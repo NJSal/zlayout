@@ -10,15 +10,15 @@ body {
 }
 
 #box1 {
-    background-color: green;
+    background-color: lightsteelblue;
     /*float: left;*/
 }
 #box2 {
-    background-color: red;
+    background-color: lightsteelblue;
     /*float: left;*/
 }
 #box3 {
-    background-color: blue;
+    background-color: lightsteelblue;
     /*
     clear: both;
     float: left;
