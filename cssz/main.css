@@ -1,5 +1,5 @@
 body {
-    background-color: lightgreen;
+    background-color: lightsalmon;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
 }
@@ -81,9 +81,10 @@ body {
 }
 
 #footer {
-    /*height: 600px;*/
+    position: relative;
+    height: 200px;
     text-align: center;
-    padding: 1.5rem 0;
+    clear: both;
 
 }
 
